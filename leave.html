@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+  <title>Leave</title>
+
+</head>
+
+<body>
+
+  <div id="navbar">
+
+    <a href="leave.html">Leave</a>
+
+    <a href="index.html">Dashboard</a>
+
+    <a href="status.html">Status</a>
+
+  </div>
+
+  <div id="mainIndex">
+
+    <form id="registrationform">
+
+     <input type="text" name="Your Unique ID" placeholder="Unique ID" required id="uID" />
+
+  
+
+     <input type="text" placeholder="Name" required minlength="4" id="name"/>
+
+     <input type="text" placeholder="Reason For Leave" required id="reason"/>
+
+  
+
+     <select name="" id="designation" required>
+
+      <option value="">Designation</option>
+
+      <option value="Employee">Employee</option>
+
+      <option value="Student">Student</option>
+
+     </select>
+
+     <input type="date" id="startDate" required />
+
+     <input type="date" id="endDate" required />
+
+  
+
+     <select name="" id="overseer" required>
+
+      <option value="">Overseer</option>
+
+      <option value="EC">EC</option>
+
+      <option value="HR">HR</option>
+
+      <option value="Manager">Manager</option>
+
+     </select>
+
+  
+
+     <button type="submit">Apply</button>
+
+    </form>
+
+   </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

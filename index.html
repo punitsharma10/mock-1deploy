@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+
+   href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+
+   rel="stylesheet"
+
+  />
+
+  <title>Dashboard</title>
+
+ </head>
+
+ <body>
+
+  <div id="navbar">
+
+   <a href="leave.html">Leave</a>
+
+   <a href="index.html">Dashboard</a>
+
+   <a href="status.html">Status</a>
+
+  </div>
+
+  <div id="filterArea">
+
+   <select name="" id="designation" required>
+
+    <option value="">Designation</option>
+
+    <option value="Employee">Employee</option>
+
+    <option value="Student">Student</option>
+
+   </select>
+
+   <input type="text" placeholder="Search By Name" />
+
+   <select name="" id="sortbyStartDate" required>
+
+    <option value="">Sort By Start Date</option>
+
+    <option value="ascending">Ascending</option>
+
+    <option value="descending">Descending</option>
+
+   </select>
+
+   <select name="" id="sortbyEndDate" required>
+
+    <option value="">Sort By Start Date</option>
+
+    <option value="ascending">Ascending</option>
+
+    <option value="descending">Descending</option>
+
+   </select>
+
+  </div>
+
+  <div id="leaveTable">
+
+   <table id="table"></table>
+
+  </div>
+
+ </body>
+
+ <script src="script2.js"></script>
+
+</html>
+
